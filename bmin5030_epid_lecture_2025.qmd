@@ -1,0 +1,414 @@
+---
+title: "Epidemiology"
+subtitle: October 24, 2025
+author: "Maxwell Salvatore"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: https://irisp2.blob.core.windows.net/public/upenn/SharedLinks/images-logo%2014th%20annual.JPG
+    footer: BMIN5030
+    css: logo.css
+include-in-header: 
+  text: |
+    <style>
+      .custom-small table {
+        font-size: .6em
+      }
+    </style>
+---
+
+## Hello!
+
+Today, I'll talk a little bit about:
+
+- Who am I?
+- What is epidemiology?
+- Real-world applications
+- Current trends and emerging opportunities
+
+## Who am I? {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+![](https://brand.umich.edu/assets/brand/style-guide/logo-guidelines/U-M_Logo-Hex.png){.absolute top="65" left="750" width="100" height="100"}
+
+::: columns
+::: {.column width="40%"}
+
+![](https://penncil.med.upenn.edu/wp-content/uploads/2024/08/salvatore_headshot-400x400.jpeg)
+
+:::
+::: {.column width="60%"}
+- Econ undergrad
+
+:::
+:::
+
+## Who am I? {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+![](https://brand.umich.edu/assets/brand/style-guide/logo-guidelines/U-M_Logo-Hex.png){.absolute top="130" left="1000" width="100" height="100"}
+
+::: columns
+::: {.column width="40%"}
+
+![](https://penncil.med.upenn.edu/wp-content/uploads/2024/08/salvatore_headshot-400x400.jpeg)
+
+:::
+::: {.column width="60%"}
+- Econ undergrad
+- Epidemiology masters and PhD
+
+::: incremental
+- Liver cancer incidence trends, survey development, EHR-linked biobanks, COVID-19 tracking
+- Penn postdoc with [Marylyn Ritchie](https://www.med.upenn.edu/apps/faculty/index.php/g275/p9023600) (Genetics) and [Yong Chen](https://dbei.med.upenn.edu/staff/yong_chen/) (DBEI) looking at GLP-1 RAs
+:::
+:::
+:::
+
+
+## What is epidemiology?
+
+::: columns
+::: {.column width="40%"}
+
+[![John Snow-Cholera Map](https://www.york.ac.uk/depts/maths/histstat/images/snow_map.gif)](https://www.york.ac.uk/depts/maths/histstat/snow_map.htm)
+:::
+::: {.column width="60%"}
+
+::: {.callout-tip title = "A Broad definition"}
+The study of the pattern, distribution, and causes of diseases in populations
+:::
+
+::: custom-small
+| Type | Description |
+| ---- | ----------- |
+| Descriptive | Focuses on describing the frequency, pattern, and distribution of diseases in a population |
+| Analytic | Aims to identify the factors that contribute to disease occurrence |
+| Experimental | Involves actively manipulating exposure factors to study their effects|
+:::
+
+:::
+:::
+
+:::{.notes}
+
+:::
+
+## Case Study 1: COVID-19 Surveillance and Prediction
+
+:::{.callout-important title = "The Challenge" collapse="true"}
+- Rapid data integration from multiple sources
+- Real-time analysis and decision support
+- Uncertainty quantification in evolving situations
+:::
+
+- Data Science Solutions
+  - Automated data pipelines and dashboards
+  - Nowcasting and forecasting models
+  - Wastewater surveillance integration
+
+## Case Study 2: Pharmacovigilance and Drug Safety
+
+## Case Study 3: Genomic Epidemiology and Precision Medicine
+
+## Emerging Frontiers
+<details open>
+  <summary>Digital Epidemiology</summary>
+  <ul>
+    <li>Social media and search trends for disease surveillance</li>
+    <li>Mobility data and contact pattern analysis</li>
+    <li>Wearable devices and continuous monitoring</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Environmental Health Data Science</summary>
+  <ul>
+    <li>Satellite data and air quality monitoring</li>
+    <li>Climate change and health impacts</li>
+    <li>Exposome research approaches</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Health Equity and Algorithmic Bias</summary>
+  <ul>
+    <li>Identifying and addressing disparities in large datasets</li>
+    <li>Fairness metrics and bias detection</li>
+    <li>Community-engaged data science</li>
+  </ul>
+</details>
+
+## Practical skills
+
+::: columns
+
+::: {.column width="33%"}
+
+**Building a Data Science Portfolio**
+
+::: {style="font-size: 32px;"}
+- GitHub best practices for showcasing work
+- Reproducible analysis examples
+- Documentation and code quality
+:::
+
+:::
+
+::: {.column width="33%"}
+
+**Collaboration and Communication**
+
+::: {style="font-size: 32px;"}
+- Working with interdisciplinary teams
+- Translating technical results for stakeholders
+- Data visualization for different audiences
+:::
+
+:::
+
+::: {.column width="33%"}
+
+**Staying Current**
+
+::: {style="font-size: 32px;"}
+- Key conferences and journals
+- Online communities and resources
+- Continuous learning strategies
+:::
+
+:::
+
+:::
+
+## Interactive Demo: Real-World Data Analysis
+
+Research question: Investigate a foodborne illness outbreak
+
+## The Dataset
+
+```{r}
+#| echo: true
+#| class-output: small-output
+
+# Load libraries
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(tidyr)
+library(stringr)
+
+# Read the data
+data <- readr::read_csv("~/Downloads/outbreak_data.csv")
+
+# What we're dealing with
+dplyr::glimpse(data)
+```
+
+:::{.notes}
+Note that the data are *messy* - there are missing values in some variables (e.g., `food_type`) and dates are formatted differently in `exposure_date`
+:::
+
+## Clean the data
+
+::: {.panel-tabset}
+
+### Code
+
+::: {style="font-size: 0.8em;"}
+```{r}
+#| echo: true
+#| output: false
+#| class-output: small-output
+outbreak_clean <- data |>
+  mutate(
+    onset_date = mdy(onset_date),  # Handle mixed formats
+    report_date = ymd(report_date),
+    exposure_date = mdy(exposure_date)
+  ) |>
+
+  # Calculate incubation period
+  mutate(incubation_hours = as.numeric(onset_date - exposure_date) * 24) |>
+
+  # Filter realistic incubation periods
+  filter(incubation_hours >= 1 & incubation_hours <= 168) |>  # 1 hour to 1 week
+
+  # Clean up missing inspector ratings
+  mutate(inspector_rating = case_when(
+    is.na(inspector_rating) ~ "Unknown",
+    TRUE ~ inspector_rating
+  ))
+```
+:::
+
+### Data
+
+```{r}
+#| echo: false
+#| class-output: small-output
+outbreak_clean
+```
+
+:::
+
+## Explore the data
+
+::: {.panel-tabset}
+
+### Code
+```{r}
+#| eval: false
+#| echo: true
+# Temporal pattern - is there clustering?
+outbreak_clean |>
+  count(onset_date) |>
+  ggplot(aes(x = onset_date, y = n)) +
+  geom_col() +
+  labs(title = "Cases by Onset Date",
+       subtitle = "Looking for temporal clustering",
+       x = "Onset Date", y = "Number of Cases") +
+  theme_minimal()
+```
+
+### Output
+
+```{r}
+#| echo: false
+# Temporal pattern - is there clustering?
+outbreak_clean |>
+  count(onset_date) |>
+  ggplot(aes(x = onset_date, y = n)) +
+  geom_col() +
+  labs(title = "Cases by Onset Date",
+       subtitle = "Looking for temporal clustering",
+       x = "Onset Date", y = "Number of Cases") +
+  theme_minimal()
+```
+
+:::
+
+## Explore the data
+
+::: {.panel-tabset}
+
+### Code
+```{r}
+#| eval: false
+#| echo: true
+# Which restaurants are involved?
+restaurant_cases <- outbreak_clean |>
+  count(restaurant_id, sort = TRUE)
+
+# Top 5 restaurants
+restaurant_cases |> 
+  head() |>
+  ggplot(aes(x = reorder(restaurant_id, n), y = n)) +
+  geom_col(fill = "steelblue") +
+  coord_flip() +
+  labs(title = "Cases by Restaurant", 
+       x = "Restaurant ID", y = "Number of Cases")
+```
+
+### Output
+```{r}
+#| echo: false
+# Which restaurants are involved?
+restaurant_cases <- outbreak_clean |>
+  count(restaurant_id, sort = TRUE)
+
+# Top 5 restaurants
+restaurant_cases |> 
+  head() |>
+  ggplot(aes(x = reorder(restaurant_id, n), y = n)) +
+  geom_col(fill = "steelblue") +
+  coord_flip() +
+  labs(title = "Cases by Restaurant", 
+       x = "Restaurant ID", y = "Number of Cases")
+```
+
+:::
+
+## Drilling down
+
+::: {.panel-tabset}
+
+### Code
+```{r}
+#| eval: false
+#| echo: true
+# Focus on the suspicious restaurant
+suspect_restaurant <- outbreak_clean |>
+  filter(restaurant_id == "R_047") |>
+  arrange(onset_date)
+
+# What do we know about this place?
+suspect_restaurant |>
+  select(onset_date, age_group, symptoms, inspector_rating) |>
+  head(10)
+```
+
+### Output
+```{r}
+#| eval: true
+#| echo: false
+# Focus on the suspicious restaurant
+suspect_restaurant <- outbreak_clean |>
+  filter(restaurant_id == "R_047") |>
+  arrange(onset_date)
+
+# What do we know about this place?
+suspect_restaurant |>
+  select(onset_date, age_group, symptoms, inspector_rating) |>
+  head(10)
+```
+
+:::
+
+## Drilling down
+
+::: {.panel-tabset}
+
+### Code
+```{r}
+#| eval: false
+#| echo: true
+# Symptom pattern analysis
+outbreak_clean |>
+  filter(restaurant_id == "R_047") |>
+  separate_rows(symptoms, sep = ",") |>
+  mutate(symptoms = str_trim(symptoms)) |>
+  count(symptoms, sort = TRUE) |>
+  head(8) |>
+  ggplot(aes(x = reorder(symptoms, n), y = n)) +
+  geom_col(fill = "darkred") +
+  coord_flip() +
+  labs(title = "Symptoms Among R_047 Cases",
+       subtitle = "Suggests specific pathogen pattern")
+```
+
+### Output
+```{r}
+#| eval: true
+#| echo: false
+# Symptom pattern analysis
+outbreak_clean |>
+  filter(restaurant_id == "R_047") |>
+  separate_rows(symptoms, sep = ",") |>
+  mutate(symptoms = str_trim(symptoms)) |>
+  count(symptoms, sort = TRUE) |>
+  head(8) |>
+  ggplot(aes(x = reorder(symptoms, n), y = n)) +
+  geom_col(fill = "darkred") +
+  coord_flip() +
+  labs(title = "Symptoms Among R_047 Cases",
+       subtitle = "Suggests specific pathogen pattern")
+```
+
+:::
+
+## Epidemiological methods
+
+- Study designs > data collection
+- Data already collected. Now what?
+
