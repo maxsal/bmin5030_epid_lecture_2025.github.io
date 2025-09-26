@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#hello",
+    "href": "bmin5030_epid_lecture_2025.html#hello",
+    "title": "Epidemiology",
+    "section": "Hello!",
+    "text": "Hello!\nToday, I’ll talk a little bit about:\n\nWho am I?\nWhat is epidemiology?\nReal-world applications\nCurrent trends and emerging opportunities"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#who-am-i",
+    "href": "bmin5030_epid_lecture_2025.html#who-am-i",
+    "title": "Epidemiology",
+    "section": "Who am I?",
+    "text": "Who am I?\n\n\n\n\n\n\nEcon undergrad"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#who-am-i-1",
+    "href": "bmin5030_epid_lecture_2025.html#who-am-i-1",
+    "title": "Epidemiology",
+    "section": "Who am I?",
+    "text": "Who am I?\n\n\n\n\n\n\nEcon undergrad\nEpidemiology masters and PhD\n\n\nLiver cancer incidence trends, survey development, EHR-linked biobanks, COVID-19 tracking\nPenn postdoc with Marylyn Ritchie (Genetics) and Yong Chen (DBEI) looking at GLP-1 RAs"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#what-is-epidemiology",
+    "href": "bmin5030_epid_lecture_2025.html#what-is-epidemiology",
+    "title": "Epidemiology",
+    "section": "What is epidemiology?",
+    "text": "What is epidemiology?\n\n\n\n\n\nJohn Snow-Cholera Map\n\n\n\n\n\n\n\n\n\n\nA Broad definition\n\n\nThe study of the pattern, distribution, and causes of diseases in populations\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\nDescriptive\nFocuses on describing the frequency, pattern, and distribution of diseases in a population\n\n\nAnalytic\nAims to identify the factors that contribute to disease occurrence\n\n\nExperimental\nInvolves actively manipulating exposure factors to study their effects"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#case-study-1-covid-19-surveillance-and-prediction",
+    "href": "bmin5030_epid_lecture_2025.html#case-study-1-covid-19-surveillance-and-prediction",
+    "title": "Epidemiology",
+    "section": "Case Study 1: COVID-19 Surveillance and Prediction",
+    "text": "Case Study 1: COVID-19 Surveillance and Prediction\n\n\n\n\n\n\n\nThe Challenge\n\n\n\nRapid data integration from multiple sources\nReal-time analysis and decision support\nUncertainty quantification in evolving situations\n\n\n\n\n\n\nData Science Solutions\n\nAutomated data pipelines and dashboards\nNowcasting and forecasting models\nWastewater surveillance integration"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#case-study-2-pharmacovigilance-and-drug-safety",
+    "href": "bmin5030_epid_lecture_2025.html#case-study-2-pharmacovigilance-and-drug-safety",
+    "title": "Epidemiology",
+    "section": "Case Study 2: Pharmacovigilance and Drug Safety",
+    "text": "Case Study 2: Pharmacovigilance and Drug Safety"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#case-study-3-genomic-epidemiology-and-precision-medicine",
+    "href": "bmin5030_epid_lecture_2025.html#case-study-3-genomic-epidemiology-and-precision-medicine",
+    "title": "Epidemiology",
+    "section": "Case Study 3: Genomic Epidemiology and Precision Medicine",
+    "text": "Case Study 3: Genomic Epidemiology and Precision Medicine"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#emerging-frontiers",
+    "href": "bmin5030_epid_lecture_2025.html#emerging-frontiers",
+    "title": "Epidemiology",
+    "section": "Emerging Frontiers",
+    "text": "Emerging Frontiers\n\n\nDigital Epidemiology\n\n\n\nSocial media and search trends for disease surveillance\n\n\nMobility data and contact pattern analysis\n\n\nWearable devices and continuous monitoring\n\n\n\n\n\nEnvironmental Health Data Science\n\n\n\nSatellite data and air quality monitoring\n\n\nClimate change and health impacts\n\n\nExposome research approaches\n\n\n\n\n\nHealth Equity and Algorithmic Bias\n\n\n\nIdentifying and addressing disparities in large datasets\n\n\nFairness metrics and bias detection\n\n\nCommunity-engaged data science"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#practical-skills",
+    "href": "bmin5030_epid_lecture_2025.html#practical-skills",
+    "title": "Epidemiology",
+    "section": "Practical skills",
+    "text": "Practical skills\n\n\nBuilding a Data Science Portfolio\n\n\nGitHub best practices for showcasing work\nReproducible analysis examples\nDocumentation and code quality\n\n\n\nCollaboration and Communication\n\n\nWorking with interdisciplinary teams\nTranslating technical results for stakeholders\nData visualization for different audiences\n\n\n\nStaying Current\n\n\nKey conferences and journals\nOnline communities and resources\nContinuous learning strategies"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#interactive-demo-real-world-data-analysis",
+    "href": "bmin5030_epid_lecture_2025.html#interactive-demo-real-world-data-analysis",
+    "title": "Epidemiology",
+    "section": "Interactive Demo: Real-World Data Analysis",
+    "text": "Interactive Demo: Real-World Data Analysis\nResearch question: Investigate a foodborne illness outbreak"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#the-dataset",
+    "href": "bmin5030_epid_lecture_2025.html#the-dataset",
+    "title": "Epidemiology",
+    "section": "The Dataset",
+    "text": "The Dataset\n\n# Load libraries\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(lubridate)\nlibrary(tidyr)\nlibrary(stringr)\n\n# Read the data\ndata &lt;- readr::read_csv(\"~/Downloads/outbreak_data.csv\")\n\n# What we're dealing with\ndplyr::glimpse(data)\n\nRows: 450\nColumns: 9\n$ case_id          &lt;dbl&gt; 366, 339, 29, 398, 334, 42, 18, 61, 193, 154, 171, 42…\n$ report_date      &lt;dttm&gt; 2024-03-17 15:00:00, 2024-03-19 00:00:00, 2024-06-15…\n$ onset_date       &lt;chr&gt; \"2024-03-16\", \"2024-03-17\", \"06/14/2024\", \"03/18/2024…\n$ restaurant_id    &lt;chr&gt; \"R_047\", \"R_047\", \"R_010\", \"R_047\", \"R_047\", \"R_002\",…\n$ food_type        &lt;chr&gt; NA, NA, \"Mediterranean\", NA, NA, \"Indian\", \"Indian\", …\n$ age_group        &lt;chr&gt; \"35-54\", \"75+\", \"35-54\", \"35-54\", \"35-54\", \"0-17\", \"0…\n$ symptoms         &lt;chr&gt; \"diarrhea, vomiting, fever\", \"diarrhea, fever, headac…\n$ exposure_date    &lt;chr&gt; \"03/16/2024\", \"2024-03-16\", \"06/14/2024\", \"2024-03-18…\n$ inspector_rating &lt;chr&gt; NA, NA, \"A\", NA, NA, \"B\", \"B\", \"F\", \"C\", \"F\", \"A\", NA…\n\n\n\nNote that the data are messy - there are missing values in some variables (e.g., food_type) and dates are formatted differently in exposure_date"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#clean-the-data",
+    "href": "bmin5030_epid_lecture_2025.html#clean-the-data",
+    "title": "Epidemiology",
+    "section": "Clean the data",
+    "text": "Clean the data\n\nCodeData\n\n\n\n\noutbreak_clean &lt;- data |&gt;\n  mutate(\n    onset_date = mdy(onset_date),  # Handle mixed formats\n    report_date = ymd(report_date),\n    exposure_date = mdy(exposure_date)\n  ) |&gt;\n\n  # Calculate incubation period\n  mutate(incubation_hours = as.numeric(onset_date - exposure_date) * 24) |&gt;\n\n  # Filter realistic incubation periods\n  filter(incubation_hours &gt;= 1 & incubation_hours &lt;= 168) |&gt;  # 1 hour to 1 week\n\n  # Clean up missing inspector ratings\n  mutate(inspector_rating = case_when(\n    is.na(inspector_rating) ~ \"Unknown\",\n    TRUE ~ inspector_rating\n  ))\n\n\n\n\n\n\n# A tibble: 34 × 10\n   case_id report_date onset_date restaurant_id food_type     age_group symptoms\n     &lt;dbl&gt; &lt;date&gt;      &lt;date&gt;     &lt;chr&gt;         &lt;chr&gt;         &lt;chr&gt;     &lt;chr&gt;   \n 1      27 NA          2024-03-30 R_004         Italian       55-74     vomitin…\n 2     447 NA          2024-03-19 R_047         &lt;NA&gt;          35-54     diarrhe…\n 3     343 NA          2024-03-16 R_047         &lt;NA&gt;          18-34     diarrhe…\n 4     149 NA          2024-02-06 R_011         Mediterranean 55-74     vomitin…\n 5     406 NA          2024-03-16 R_047         &lt;NA&gt;          0-17      diarrhe…\n 6      50 NA          2024-05-28 R_023         Chinese       35-54     diarrhe…\n 7      75 NA          2024-02-24 R_006         American      35-54     diarrhe…\n 8     110 NA          2024-01-12 R_020         Chinese       18-34     diarrhe…\n 9     404 2024-03-24  2024-03-18 R_047         &lt;NA&gt;          55-74     diarrhe…\n10     120 NA          2024-04-03 R_024         American      35-54     nausea,…\n# ℹ 24 more rows\n# ℹ 3 more variables: exposure_date &lt;date&gt;, inspector_rating &lt;chr&gt;,\n#   incubation_hours &lt;dbl&gt;"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#explore-the-data",
+    "href": "bmin5030_epid_lecture_2025.html#explore-the-data",
+    "title": "Epidemiology",
+    "section": "Explore the data",
+    "text": "Explore the data\n\nCodeOutput\n\n\n\n# Temporal pattern - is there clustering?\noutbreak_clean |&gt;\n  count(onset_date) |&gt;\n  ggplot(aes(x = onset_date, y = n)) +\n  geom_col() +\n  labs(title = \"Cases by Onset Date\",\n       subtitle = \"Looking for temporal clustering\",\n       x = \"Onset Date\", y = \"Number of Cases\") +\n  theme_minimal()"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#explore-the-data-1",
+    "href": "bmin5030_epid_lecture_2025.html#explore-the-data-1",
+    "title": "Epidemiology",
+    "section": "Explore the data",
+    "text": "Explore the data\n\nCodeOutput\n\n\n\n# Which restaurants are involved?\nrestaurant_cases &lt;- outbreak_clean |&gt;\n  count(restaurant_id, sort = TRUE)\n\n# Top 5 restaurants\nrestaurant_cases |&gt; \n  head() |&gt;\n  ggplot(aes(x = reorder(restaurant_id, n), y = n)) +\n  geom_col(fill = \"steelblue\") +\n  coord_flip() +\n  labs(title = \"Cases by Restaurant\", \n       x = \"Restaurant ID\", y = \"Number of Cases\")"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#drilling-down",
+    "href": "bmin5030_epid_lecture_2025.html#drilling-down",
+    "title": "Epidemiology",
+    "section": "Drilling down",
+    "text": "Drilling down\n\nCodeOutput\n\n\n\n# Focus on the suspicious restaurant\nsuspect_restaurant &lt;- outbreak_clean |&gt;\n  filter(restaurant_id == \"R_047\") |&gt;\n  arrange(onset_date)\n\n# What do we know about this place?\nsuspect_restaurant |&gt;\n  select(onset_date, age_group, symptoms, inspector_rating) |&gt;\n  head(10)\n\n\n\n\n\n# A tibble: 10 × 4\n   onset_date age_group symptoms                                inspector_rating\n   &lt;date&gt;     &lt;chr&gt;     &lt;chr&gt;                                   &lt;chr&gt;           \n 1 2024-03-15 18-34     diarrhea, fever, abdominal_cramps, vom… Unknown         \n 2 2024-03-16 18-34     diarrhea, fever, abdominal_cramps, vom… Unknown         \n 3 2024-03-16 0-17      diarrhea, fever, headache               Unknown         \n 4 2024-03-16 35-54     diarrhea, fever, headache               Unknown         \n 5 2024-03-17 35-54     diarrhea, fever, headache               Unknown         \n 6 2024-03-18 55-74     diarrhea, vomiting, fever               Unknown         \n 7 2024-03-19 35-54     diarrhea, fever, abdominal_cramps, vom… Unknown         \n 8 2024-03-19 0-17      diarrhea, fever, headache               Unknown         \n 9 2024-03-19 18-34     diarrhea, fever, headache               Unknown         \n10 2024-03-19 18-34     diarrhea, fever, headache               Unknown"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#drilling-down-1",
+    "href": "bmin5030_epid_lecture_2025.html#drilling-down-1",
+    "title": "Epidemiology",
+    "section": "Drilling down",
+    "text": "Drilling down\n\nCodeOutput\n\n\n\n# Symptom pattern analysis\noutbreak_clean |&gt;\n  filter(restaurant_id == \"R_047\") |&gt;\n  separate_rows(symptoms, sep = \",\") |&gt;\n  mutate(symptoms = str_trim(symptoms)) |&gt;\n  count(symptoms, sort = TRUE) |&gt;\n  head(8) |&gt;\n  ggplot(aes(x = reorder(symptoms, n), y = n)) +\n  geom_col(fill = \"darkred\") +\n  coord_flip() +\n  labs(title = \"Symptoms Among R_047 Cases\",\n       subtitle = \"Suggests specific pathogen pattern\")"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#epidemiological-methods",
+    "href": "bmin5030_epid_lecture_2025.html#epidemiological-methods",
+    "title": "Epidemiology",
+    "section": "Epidemiological methods",
+    "text": "Epidemiological methods\n\nStudy designs &gt; data collection\nData already collected. Now what?"
+  }
+]
