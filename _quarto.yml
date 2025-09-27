@@ -1,0 +1,5 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "BMIN 5030 Epidemiology Lecture 2025"
