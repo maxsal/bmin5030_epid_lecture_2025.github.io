@@ -4,118 +4,279 @@
     "href": "bmin5030_epid_lecture_2025.html#hello",
     "title": "Epidemiology",
     "section": "Hello!",
-    "text": "Hello!\nToday, I’ll talk a little bit about:\n\nWho am I?\nWhat is epidemiology?\nReal-world applications\nCurrent trends and emerging opportunities"
+    "text": "Hello!\n\n\n\n\n\n\nEcon undergrad"
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#who-am-i",
-    "href": "bmin5030_epid_lecture_2025.html#who-am-i",
+    "objectID": "bmin5030_epid_lecture_2025.html#hello-1",
+    "href": "bmin5030_epid_lecture_2025.html#hello-1",
     "title": "Epidemiology",
-    "section": "Who am I?",
-    "text": "Who am I?\n\n\n\n\n\n\nEcon undergrad"
-  },
-  {
-    "objectID": "bmin5030_epid_lecture_2025.html#who-am-i-1",
-    "href": "bmin5030_epid_lecture_2025.html#who-am-i-1",
-    "title": "Epidemiology",
-    "section": "Who am I?",
-    "text": "Who am I?\n\n\n\n\n\n\nEcon undergrad\nEpidemiology masters and PhD\n\n\nLiver cancer incidence trends, survey development, EHR-linked biobanks, COVID-19 tracking\nPenn postdoc with Marylyn Ritchie (Genetics) and Yong Chen (DBEI) looking at GLP-1 RAs"
+    "section": "Hello!",
+    "text": "Hello!\n\n\n\n\n\n\nEcon undergrad\nEpidemiology masters and PhD\n\n\nLiver cancer incidence trends, survey development, EHR-linked biobanks, COVID-19 tracking\nPenn postdoc with Marylyn Ritchie (Genetics) and Yong Chen (DBEI) looking at GLP-1 RAs"
   },
   {
     "objectID": "bmin5030_epid_lecture_2025.html#what-is-epidemiology",
     "href": "bmin5030_epid_lecture_2025.html#what-is-epidemiology",
     "title": "Epidemiology",
     "section": "What is epidemiology?",
-    "text": "What is epidemiology?\n\n\n\n\n\nJohn Snow-Cholera Map\n\n\n\n\n\n\n\n\n\n\nA Broad definition\n\n\nThe study of the pattern, distribution, and causes of diseases in populations\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\nDescriptive\nFocuses on describing the frequency, pattern, and distribution of diseases in a population\n\n\nAnalytic\nAims to identify the factors that contribute to disease occurrence\n\n\nExperimental\nInvolves actively manipulating exposure factors to study their effects"
+    "text": "What is epidemiology?\n\n\n\n\n\nJohn Snow-Cholera Map\n\n\n\n\n\n\n\n\n\n\nA Broad definition\n\n\nEpidemiology is the study of how diseases and health-related events are distributed in populations and the factors that influence or determine this distribution1\n\n\n\n\n\n\nModern epidemiology often described as starting with John Snow’s studies of a cholera epidemic in London in 1854\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\nDescriptive\nFocuses on describing the frequency, pattern, and distribution of diseases in a population\n\n\nAnalytic\nAims to identify the factors that contribute to disease occurrence\n\n\nExperimental\nInvolves actively manipulating exposure factors to study their effects\n\n\n\n\n\n\nBriefly, what is epidemiology? Broadly, it’s the study of the distribution, patterns, and causes of disease in populations. Here is a definition from a famous epidemiology text book.\nDoes anyone know what the map on the left is?\nIt’s a map of cholera cases in 1854 London. There was a severe cholera outbreak where 616 people died. Interestingly, most of the patients were taken to a hospital where their treatment was superintended by Florence Nightingale, an incredibly important figure in nursing, social reform, and statistics and data visualization. But it was John Snow who studied the outbreak and hypothesized that germ-contaminated water - not something in the air called “miasma” - was the cause.\nOn the map, he plotted locations where individuals contracted cholera as well as the location of two water pumps. It showed that cholera cases clustered in homes served by the Southwark and Vauxhall company but not the Lambeth Waterworks pump. And he statistically showed that houses served by the Southwark pump had a cholera mortality rate 14 times that than houses served by Lambeth Waterworks.\nThe Broad Street cholera outbreak is regarded as the founding event of epidemiology.\nThere are different types of epidemiology, often broken up into descriptive, analytic, and experimental.\n\nGordis L. Epidemiology. 5. ed. Elsevier Saunders; 2014."
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#case-study-1-covid-19-surveillance-and-prediction",
-    "href": "bmin5030_epid_lecture_2025.html#case-study-1-covid-19-surveillance-and-prediction",
+    "objectID": "bmin5030_epid_lecture_2025.html#epidemiologic-studies",
+    "href": "bmin5030_epid_lecture_2025.html#epidemiologic-studies",
     "title": "Epidemiology",
-    "section": "Case Study 1: COVID-19 Surveillance and Prediction",
-    "text": "Case Study 1: COVID-19 Surveillance and Prediction\n\n\n\n\n\n\n\nThe Challenge\n\n\n\nRapid data integration from multiple sources\nReal-time analysis and decision support\nUncertainty quantification in evolving situations\n\n\n\n\n\n\nData Science Solutions\n\nAutomated data pipelines and dashboards\nNowcasting and forecasting models\nWastewater surveillance integration"
+    "section": "Epidemiologic studies",
+    "text": "Epidemiologic studies\n\nDesigned and thoughtfully implemented to reduce bias and represent underlying sampled populations\n\nInterview people via phone, internet, or in-person visits\nGather biological measures\nMake observations about environmental exposures and outcomes\n\n\n\nRegardless of the type of epidemiology, epidemiologic studies are known for their design and are thoughfully implemented to reduce bias and represent underlying sampled populations.\nTraditionally, data are gathered by interviews or surveys, gather data on exposure information and biological measures, and make observations about environmental exposures and outcomes.\nToday I’ll talk about some data sources that are often used in epidemiology."
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#case-study-2-pharmacovigilance-and-drug-safety",
-    "href": "bmin5030_epid_lecture_2025.html#case-study-2-pharmacovigilance-and-drug-safety",
+    "objectID": "bmin5030_epid_lecture_2025.html#u.s-decennial-census",
+    "href": "bmin5030_epid_lecture_2025.html#u.s-decennial-census",
     "title": "Epidemiology",
-    "section": "Case Study 2: Pharmacovigilance and Drug Safety",
-    "text": "Case Study 2: Pharmacovigilance and Drug Safety"
+    "section": "U.S Decennial Census",
+    "text": "U.S Decennial Census\n\nMandated every 10 years by the U.S. Constitution, started 1790\nGoal is to have proper representation and taxation in U.S.\nConducted by the U.S. Census Bureau\nData is widely used by scientists for research\nGeographic and sociodemographic variables also lay foundation for epidemiologic research\nFull data is released 72 years after census takes place\nU.S. population according the 2020 census1: 331,449,281\n\n\nOne that you might be familiar with is the decennial census. It is famously mandated to be collected every 10 years by the US constitution primarily for allocating representation in government and taxes. The data is widely used by scientists for research because, as a census, attempts to directly collect information on all individuals in the population, with its geographic and sociodemographic variables serving as the gold standard for population estimates.\nAccording to the 2020 Census, the US population was 331,449,281\n\nhttps://www.census.gov"
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#case-study-3-genomic-epidemiology-and-precision-medicine",
-    "href": "bmin5030_epid_lecture_2025.html#case-study-3-genomic-epidemiology-and-precision-medicine",
+    "objectID": "bmin5030_epid_lecture_2025.html#information-that-is-part-of-the-census",
+    "href": "bmin5030_epid_lecture_2025.html#information-that-is-part-of-the-census",
     "title": "Epidemiology",
-    "section": "Case Study 3: Genomic Epidemiology and Precision Medicine",
-    "text": "Case Study 3: Genomic Epidemiology and Precision Medicine"
+    "section": "Information that is part of the census",
+    "text": "Information that is part of the census\n\n\n\nGeography\nPopulation\n\nSex, age, race, ethnicity, household relationship, type and size, family type and size, and group quarters\n\nHousing\n\nOccupancy status, vacancy status, and tenure\n\n\n\n Source: Standard Hierarchy of Census Geographic Entities\n\n\nThe Census collects primarily geographic and sociodemographic variables. The geographic information is abstracted based on the address associated with the Census form and provides various localities like state, county, ZIP code, census tract and census block.\nIt additionally collects a person’s sex, age and birth date, and race/ethnicity status, along with information about the household - how many people live there. This information is relevant for health researchers because it can give a sense of how representative a study sample is of the US population and these data can be used to employ statistical techniques to make results from a study sample more representative of the US population."
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#emerging-frontiers",
-    "href": "bmin5030_epid_lecture_2025.html#emerging-frontiers",
+    "objectID": "bmin5030_epid_lecture_2025.html#u.s.-geographic-codes",
+    "href": "bmin5030_epid_lecture_2025.html#u.s.-geographic-codes",
     "title": "Epidemiology",
-    "section": "Emerging Frontiers",
-    "text": "Emerging Frontiers\n\n\nDigital Epidemiology\n\n\n\nSocial media and search trends for disease surveillance\n\n\nMobility data and contact pattern analysis\n\n\nWearable devices and continuous monitoring\n\n\n\n\n\nEnvironmental Health Data Science\n\n\n\nSatellite data and air quality monitoring\n\n\nClimate change and health impacts\n\n\nExposome research approaches\n\n\n\n\n\nHealth Equity and Algorithmic Bias\n\n\n\nIdentifying and addressing disparities in large datasets\n\n\nFairness metrics and bias detection\n\n\nCommunity-engaged data science"
+    "section": "U.S. Geographic Codes",
+    "text": "U.S. Geographic Codes\n\nFederal Information Processing Standard (FIPS) codes\n\nMaintained by the American National Standards Institute (ANSI)\nUniquely identifies counties and county equivalents\n\nStates\n\nPostal code: PA\nFIPS code: 42\n\nCounty\n\nName: Philadelphia County\nCounty FIPS code: 101\nFull FIPS code: 42101\n\nZIP codes / ZIP Code Tabulation Areas\nCensus tracts\nCensus blocks\n\n\nZone Improvement Plan or ZIP codes are a postal code system for mail delivery. There are some interesting considerations regarding use of ZIP codes, primarily that they can cross county lines. Additionally, ZIP codes refer to addresses along a network of roads. The US Census Bureau has created ZIP Code Tabulation Areas that define the land covered by/associated with each ZIP code.\nCensus tracts are smaller units divided up to contain approximately 4,000 individuals each and are supposed to represent a relatively homogenous population. Unlike ZIP Codes, these boundaries respect county and state lines.\nCensus blocks are even smaller. There were over 8,100,000 census blocks in the US and Puerto Rico for the 2020 Census"
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#practical-skills",
-    "href": "bmin5030_epid_lecture_2025.html#practical-skills",
+    "objectID": "bmin5030_epid_lecture_2025.html#american-community-survey-acs",
+    "href": "bmin5030_epid_lecture_2025.html#american-community-survey-acs",
     "title": "Epidemiology",
-    "section": "Practical skills",
-    "text": "Practical skills\n\n\nBuilding a Data Science Portfolio\n\n\nGitHub best practices for showcasing work\nReproducible analysis examples\nDocumentation and code quality\n\n\n\nCollaboration and Communication\n\n\nWorking with interdisciplinary teams\nTranslating technical results for stakeholders\nData visualization for different audiences\n\n\n\nStaying Current\n\n\nKey conferences and journals\nOnline communities and resources\nContinuous learning strategies"
+    "section": "American Community Survey (ACS)",
+    "text": "American Community Survey (ACS)\n\nThe US Census Bureau gathers data continuously to estimate regional socioeconomic and housing characteristics\nData is released in aggregated 1-, 3-, and 5-year products\nInformation collected helps determine how more than $675 billion in federal and state funds are distributed each year\n\n\n\nAs early as James Madison in 1790 envisioned collecting additional, long form data on the US population.\nIn the 1940s, a long-form version of the Census was sent out to a subset of households.\nAfter the 1960 Census, officials and some in the private sector wanted more timely long-form-type data.\nIn 1981 a rolling sample design was proposed and was adopted in 2005 so the ACS could continuously collect data. Data are now released annually.\nIt collects additional information beyong the Census including more details about housing and income, educational attainment, ability, and occupation."
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#interactive-demo-real-world-data-analysis",
-    "href": "bmin5030_epid_lecture_2025.html#interactive-demo-real-world-data-analysis",
+    "objectID": "bmin5030_epid_lecture_2025.html#american-community-survey-acs-1",
+    "href": "bmin5030_epid_lecture_2025.html#american-community-survey-acs-1",
     "title": "Epidemiology",
-    "section": "Interactive Demo: Real-World Data Analysis",
-    "text": "Interactive Demo: Real-World Data Analysis\nResearch question: Investigate a foodborne illness outbreak"
+    "section": "American Community Survey (ACS)",
+    "text": "American Community Survey (ACS)"
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#the-dataset",
-    "href": "bmin5030_epid_lecture_2025.html#the-dataset",
+    "objectID": "bmin5030_epid_lecture_2025.html#american-community-survey-acs-2",
+    "href": "bmin5030_epid_lecture_2025.html#american-community-survey-acs-2",
     "title": "Epidemiology",
-    "section": "The Dataset",
-    "text": "The Dataset\n\n# Load libraries\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(lubridate)\nlibrary(tidyr)\nlibrary(stringr)\n\n# Read the data\ndata &lt;- readr::read_csv(\"~/Downloads/outbreak_data.csv\")\n\n# What we're dealing with\ndplyr::glimpse(data)\n\nRows: 450\nColumns: 9\n$ case_id          &lt;dbl&gt; 366, 339, 29, 398, 334, 42, 18, 61, 193, 154, 171, 42…\n$ report_date      &lt;dttm&gt; 2024-03-17 15:00:00, 2024-03-19 00:00:00, 2024-06-15…\n$ onset_date       &lt;chr&gt; \"2024-03-16\", \"2024-03-17\", \"06/14/2024\", \"03/18/2024…\n$ restaurant_id    &lt;chr&gt; \"R_047\", \"R_047\", \"R_010\", \"R_047\", \"R_047\", \"R_002\",…\n$ food_type        &lt;chr&gt; NA, NA, \"Mediterranean\", NA, NA, \"Indian\", \"Indian\", …\n$ age_group        &lt;chr&gt; \"35-54\", \"75+\", \"35-54\", \"35-54\", \"35-54\", \"0-17\", \"0…\n$ symptoms         &lt;chr&gt; \"diarrhea, vomiting, fever\", \"diarrhea, fever, headac…\n$ exposure_date    &lt;chr&gt; \"03/16/2024\", \"2024-03-16\", \"06/14/2024\", \"2024-03-18…\n$ inspector_rating &lt;chr&gt; NA, NA, \"A\", NA, NA, \"B\", \"B\", \"F\", \"C\", \"F\", \"A\", NA…\n\n\n\nNote that the data are messy - there are missing values in some variables (e.g., food_type) and dates are formatted differently in exposure_date"
+    "section": "American Community Survey (ACS)",
+    "text": "American Community Survey (ACS)"
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#clean-the-data",
-    "href": "bmin5030_epid_lecture_2025.html#clean-the-data",
+    "objectID": "bmin5030_epid_lecture_2025.html#acs-is-used-by-many-people",
+    "href": "bmin5030_epid_lecture_2025.html#acs-is-used-by-many-people",
     "title": "Epidemiology",
-    "section": "Clean the data",
-    "text": "Clean the data\n\nCodeData\n\n\n\n\noutbreak_clean &lt;- data |&gt;\n  mutate(\n    onset_date = mdy(onset_date),  # Handle mixed formats\n    report_date = ymd(report_date),\n    exposure_date = mdy(exposure_date)\n  ) |&gt;\n\n  # Calculate incubation period\n  mutate(incubation_hours = as.numeric(onset_date - exposure_date) * 24) |&gt;\n\n  # Filter realistic incubation periods\n  filter(incubation_hours &gt;= 1 & incubation_hours &lt;= 168) |&gt;  # 1 hour to 1 week\n\n  # Clean up missing inspector ratings\n  mutate(inspector_rating = case_when(\n    is.na(inspector_rating) ~ \"Unknown\",\n    TRUE ~ inspector_rating\n  ))\n\n\n\n\n\n\n# A tibble: 34 × 10\n   case_id report_date onset_date restaurant_id food_type     age_group symptoms\n     &lt;dbl&gt; &lt;date&gt;      &lt;date&gt;     &lt;chr&gt;         &lt;chr&gt;         &lt;chr&gt;     &lt;chr&gt;   \n 1      27 NA          2024-03-30 R_004         Italian       55-74     vomitin…\n 2     447 NA          2024-03-19 R_047         &lt;NA&gt;          35-54     diarrhe…\n 3     343 NA          2024-03-16 R_047         &lt;NA&gt;          18-34     diarrhe…\n 4     149 NA          2024-02-06 R_011         Mediterranean 55-74     vomitin…\n 5     406 NA          2024-03-16 R_047         &lt;NA&gt;          0-17      diarrhe…\n 6      50 NA          2024-05-28 R_023         Chinese       35-54     diarrhe…\n 7      75 NA          2024-02-24 R_006         American      35-54     diarrhe…\n 8     110 NA          2024-01-12 R_020         Chinese       18-34     diarrhe…\n 9     404 2024-03-24  2024-03-18 R_047         &lt;NA&gt;          55-74     diarrhe…\n10     120 NA          2024-04-03 R_024         American      35-54     nausea,…\n# ℹ 24 more rows\n# ℹ 3 more variables: exposure_date &lt;date&gt;, inspector_rating &lt;chr&gt;,\n#   incubation_hours &lt;dbl&gt;"
+    "section": "ACS is used by many people",
+    "text": "ACS is used by many people\n\nSource"
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#explore-the-data",
-    "href": "bmin5030_epid_lecture_2025.html#explore-the-data",
+    "objectID": "bmin5030_epid_lecture_2025.html#behavioral-risk-factor-surveillance-system-brfss",
+    "href": "bmin5030_epid_lecture_2025.html#behavioral-risk-factor-surveillance-system-brfss",
     "title": "Epidemiology",
-    "section": "Explore the data",
-    "text": "Explore the data\n\nCodeOutput\n\n\n\n# Temporal pattern - is there clustering?\noutbreak_clean |&gt;\n  count(onset_date) |&gt;\n  ggplot(aes(x = onset_date, y = n)) +\n  geom_col() +\n  labs(title = \"Cases by Onset Date\",\n       subtitle = \"Looking for temporal clustering\",\n       x = \"Onset Date\", y = \"Number of Cases\") +\n  theme_minimal()"
+    "section": "Behavioral Risk Factor Surveillance System (BRFSS)",
+    "text": "Behavioral Risk Factor Surveillance System (BRFSS)\n\n\n\n\n\n\nOngoing CDC-led phone survey to collect risk behavior assoicated with premature morbidity and mortality among US adults\n\nStarted in 1984 with 15 states\nNationwide in 1993\nCellphone interviews included starting in 2011\n\nState health departments collect state information and send to CDC\n\nIncludes 50 states, DC, Puerto Rico, US Virgin Islands, Guam, American Samoa, Palau\n\nCompletes ~400,000 interviews each year\n\n\nAs of 2023, 99.2% of occupied households had telephone service."
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#explore-the-data-1",
-    "href": "bmin5030_epid_lecture_2025.html#explore-the-data-1",
+    "objectID": "bmin5030_epid_lecture_2025.html#what-has-brfss-been-used-for",
+    "href": "bmin5030_epid_lecture_2025.html#what-has-brfss-been-used-for",
     "title": "Epidemiology",
-    "section": "Explore the data",
-    "text": "Explore the data\n\nCodeOutput\n\n\n\n# Which restaurants are involved?\nrestaurant_cases &lt;- outbreak_clean |&gt;\n  count(restaurant_id, sort = TRUE)\n\n# Top 5 restaurants\nrestaurant_cases |&gt; \n  head() |&gt;\n  ggplot(aes(x = reorder(restaurant_id, n), y = n)) +\n  geom_col(fill = \"steelblue\") +\n  coord_flip() +\n  labs(title = \"Cases by Restaurant\", \n       x = \"Restaurant ID\", y = \"Number of Cases\")"
+    "section": "What has BRFSS been used for?",
+    "text": "What has BRFSS been used for?\n\nProvides information to establish policies and strategies to promote health\n\nAlcohol, smoking, sugary drink consumption, seatbelt use\n\nVaccine availability/compliance\n\nInfluenza vaccine shortage 2004-2005\n\nResponse to urgent issues:\n\nDuring 2009 H1N1 flu pandemic: influenza-like illness module H1N1 vaccination questions added\nFollowing Hurricane Katrina and Rita in 2005: monitor health outcomes"
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#drilling-down",
-    "href": "bmin5030_epid_lecture_2025.html#drilling-down",
+    "objectID": "bmin5030_epid_lecture_2025.html#binge-drinking-among-adults-2011",
+    "href": "bmin5030_epid_lecture_2025.html#binge-drinking-among-adults-2011",
     "title": "Epidemiology",
-    "section": "Drilling down",
-    "text": "Drilling down\n\nCodeOutput\n\n\n\n# Focus on the suspicious restaurant\nsuspect_restaurant &lt;- outbreak_clean |&gt;\n  filter(restaurant_id == \"R_047\") |&gt;\n  arrange(onset_date)\n\n# What do we know about this place?\nsuspect_restaurant |&gt;\n  select(onset_date, age_group, symptoms, inspector_rating) |&gt;\n  head(10)\n\n\n\n\n\n# A tibble: 10 × 4\n   onset_date age_group symptoms                                inspector_rating\n   &lt;date&gt;     &lt;chr&gt;     &lt;chr&gt;                                   &lt;chr&gt;           \n 1 2024-03-15 18-34     diarrhea, fever, abdominal_cramps, vom… Unknown         \n 2 2024-03-16 18-34     diarrhea, fever, abdominal_cramps, vom… Unknown         \n 3 2024-03-16 0-17      diarrhea, fever, headache               Unknown         \n 4 2024-03-16 35-54     diarrhea, fever, headache               Unknown         \n 5 2024-03-17 35-54     diarrhea, fever, headache               Unknown         \n 6 2024-03-18 55-74     diarrhea, vomiting, fever               Unknown         \n 7 2024-03-19 35-54     diarrhea, fever, abdominal_cramps, vom… Unknown         \n 8 2024-03-19 0-17      diarrhea, fever, headache               Unknown         \n 9 2024-03-19 18-34     diarrhea, fever, headache               Unknown         \n10 2024-03-19 18-34     diarrhea, fever, headache               Unknown"
+    "section": "Binge drinking among adults 2011",
+    "text": "Binge drinking among adults 2011\n Defined as 5 or more drinks on an occasion for men, 4 for women"
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#drilling-down-1",
-    "href": "bmin5030_epid_lecture_2025.html#drilling-down-1",
+    "objectID": "bmin5030_epid_lecture_2025.html#brfss-sampling",
+    "href": "bmin5030_epid_lecture_2025.html#brfss-sampling",
     "title": "Epidemiology",
-    "section": "Drilling down",
-    "text": "Drilling down\n\nCodeOutput\n\n\n\n# Symptom pattern analysis\noutbreak_clean |&gt;\n  filter(restaurant_id == \"R_047\") |&gt;\n  separate_rows(symptoms, sep = \",\") |&gt;\n  mutate(symptoms = str_trim(symptoms)) |&gt;\n  count(symptoms, sort = TRUE) |&gt;\n  head(8) |&gt;\n  ggplot(aes(x = reorder(symptoms, n), y = n)) +\n  geom_col(fill = \"darkred\") +\n  coord_flip() +\n  labs(title = \"Symptoms Among R_047 Cases\",\n       subtitle = \"Suggests specific pathogen pattern\")"
+    "section": "BRFSS sampling",
+    "text": "BRFSS sampling\n\nAttempts to conduct 4,000 interviews per state per year\nLandlines (80%)\n\nNumbers drawn from two strata based on presumed density of household numbers\nRandomly sample one eligible adult per household\n\nCell phones (20%)\n\nNumbers drawn by area code (if people moved, complete interview, then give results to appropriate state)\nTreated as single adult households"
   },
   {
-    "objectID": "bmin5030_epid_lecture_2025.html#epidemiological-methods",
-    "href": "bmin5030_epid_lecture_2025.html#epidemiological-methods",
+    "objectID": "bmin5030_epid_lecture_2025.html#brfss-questionnaire",
+    "href": "bmin5030_epid_lecture_2025.html#brfss-questionnaire",
     "title": "Epidemiology",
-    "section": "Epidemiological methods",
-    "text": "Epidemiological methods\n\nStudy designs &gt; data collection\nData already collected. Now what?"
+    "section": "BRFSS questionnaire",
+    "text": "BRFSS questionnaire\n\nStandard core: included each year, asked in all states\nRotating core: asked by all states every other year\nOptional modules: states select which to include\nState-added questions: state-specific questions that are cognitively tested\nProtocols to conduct survey set by CDC:\n\n20% interviews on weekdays\n80% interviews on week nights and weekends\nUp to 15 attempts for each phone number\nSurvey “complete” if data collected for age, race, sex\n\n\n\nOptional modules for 2024 included prediabetes and diabetes, arthritis, shingles and HPV vaccination, cognitive decline, caregiver health, cancer survivorship (type, treatment, pain management), adverse childhood experiences, sugar-sweetened beverages, and tobacco cessation."
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#brfss-questionnaire-1",
+    "href": "bmin5030_epid_lecture_2025.html#brfss-questionnaire-1",
+    "title": "Epidemiology",
+    "section": "BRFSS questionnaire",
+    "text": "BRFSS questionnaire\n\nEach year ~77 pages\nQuestions and modules vary year-to-year\nTime-consuming to understand in full detail\n\n\n\n\n\n\n\n\nTable of contents from 2011 BRFSS Questionnaire"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#brfss-questionnaire-2",
+    "href": "bmin5030_epid_lecture_2025.html#brfss-questionnaire-2",
+    "title": "Epidemiology",
+    "section": "BRFSS questionnaire",
+    "text": "BRFSS questionnaire\n\n\n\n\n\n\nSource: BRFSS Questionnaire 2011"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#brfss-weighting",
+    "href": "bmin5030_epid_lecture_2025.html#brfss-weighting",
+    "title": "Epidemiology",
+    "section": "BRFSS weighting",
+    "text": "BRFSS weighting\n\nData weighting is performed to reduce bias\nDesign weighting accounts for\n\nNumber of phones and adults in household\nNumber of records selected within geographic and density strata\n\nRaking weights: since 2011, ensures data represents population by\n\nSex, age, race, education, marital status, home ownership, phone ownership, sub-state region\n\nFinal weight for each respondent =\n\ndesign weight * raking weight\n\n\n\nThe survey R package in R can be used to analyze BRFSS data accounting for weights"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#analyzing-brfss-data",
+    "href": "bmin5030_epid_lecture_2025.html#analyzing-brfss-data",
+    "title": "Epidemiology",
+    "section": "Analyzing BRFSS data",
+    "text": "Analyzing BRFSS data\n\nAll BRFSS data should be analyzed using complex sampling procedures\nLack of attention to the complex survey design specifications in analyses will yield biased estimates of population prevalence and of associated confidence intervals\nUseful documentation:\n\nBRFSS documentation\nUsing weights in BRFSS\n\nUseful R packages:\n\nsurvey\nsrvyr"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#analyzing-brfss-data-1",
+    "href": "bmin5030_epid_lecture_2025.html#analyzing-brfss-data-1",
+    "title": "Epidemiology",
+    "section": "Analyzing BRFSS data",
+    "text": "Analyzing BRFSS data\n\nCodeOutput\n\n\n\nlibrary(haven)\nlibrary(survey)\nlibrary(sf)\nlibrary(tigris)\nlibrary(tidyverse)\n\noptions(survey.lonely.psu=\"adjust\")\nbrfss &lt;- haven::read_xpt(\"data/LLCP2024.XPT\") |&gt;\n  janitor::clean_names() |&gt;\n  mutate(\n  asthma = case_when(\n    asthma3 == 1 ~ 1,\n    asthma3 == 2 ~ 0,\n    .default = NA\n  ),\n  statefp = as.character(ifelse(\n    nchar(state) == 1, paste0(\"0\", state), as.character(state)\n  ))) |&gt;\n  filter(state &lt;= 56)\n\nbrfss_dsn &lt;- survey::svydesign(\n  id = ~1,\n  strata = ~ststr,\n  weights = ~llcpwt,\n  data = brfss\n)\n\nasthma_by_state &lt;- survey::svyby(\n  ~asthma,\n  ~statefp,\n  design = brfss_dsn,\n  FUN = survey::svymean,\n  na.rm = TRUE\n)\n\nstates &lt;- tigris::states(cb = TRUE, resolution = \"20m\")\n\nstates_data &lt;- states |&gt;\n  filter(!STATEFP %in% c(\"02\", \"15\", \"60\", \"66\", \"69\", \"72\", \"78\")) |&gt;\n  inner_join(asthma_by_state, by = c(\"STATEFP\" = \"statefp\"))\n\nstate_plot &lt;- ggplot(states_data) +\n  geom_sf(aes(fill = asthma), color = \"white\") +\n  scale_fill_gradient(low = \"lightblue\", high = \"darkred\",\n                      labels = scales::percent_format(accuracy = 1),\n                      name = \"Asthma\\nPrevalence (%)\") +\n  labs(title = \"Asthma Prevalence by State\", subtitle = \"Survey-weighted 2024 BRFSS data\") +\n  theme_void() +\n  theme(\n    plot.title = element_text(hjust = 0.5, face = \"bold\"),\n    plot.subtitle = element_text(hjust = 0.5, color = \"gray40\")\n)"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#youth-risk-factor-surveillance-system-yrbss",
+    "href": "bmin5030_epid_lecture_2025.html#youth-risk-factor-surveillance-system-yrbss",
+    "title": "Epidemiology",
+    "section": "Youth Risk Factor Surveillance System (YRBSS)",
+    "text": "Youth Risk Factor Surveillance System (YRBSS)\n\nCDC-led survey to monitor priority health-risk behaviors: those that are preventable and contribute to morbidity and mortality among youth and young adults\n\nConducts school-based national, state, tribal, and large urban school district surveys of representative samples of high school (and some middle school) students, along with national surveys and special population surveys\nData is representative of 9-12 graders in the US\nTopics: injury/violence, sexual behaviors, tobacco use, alcohol and drug use, unhealthy diet, physical activity, obesity, asthma\n\nCompletes ~10,000-15,000 interviews each year"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#national-health-and-nutrition-examination-survey-nhanes",
+    "href": "bmin5030_epid_lecture_2025.html#national-health-and-nutrition-examination-survey-nhanes",
+    "title": "Epidemiology",
+    "section": "National Health and Nutrition Examination Survey (NHANES)",
+    "text": "National Health and Nutrition Examination Survey (NHANES)\n\n\n\n\n\n\n\nCDC study to assess health and nutritional status of adults and children in the US\n\nStarted in 1960\nSince 1999, continuously examines 5,000 persons/year in 2-year waves\n15 counties remain same, others change each year\n\nSets national standards (e.g. height, weight, blood pressure)\nQuestionnaires completed via in-person home interviews and measures taken during physical exam\nSome exposures measured via additional monitors\nOversamples groups of particular public health interest - racial/ethnic minorities, youth, and elderly - to ensure sufficient data in these subgroups"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#nhanes-sampling-procedure",
+    "href": "bmin5030_epid_lecture_2025.html#nhanes-sampling-procedure",
+    "title": "Epidemiology",
+    "section": "NHANES Sampling Procedure",
+    "text": "NHANES Sampling Procedure\n\n\n\n\n\nAfter data collection, weights are modified for non-response and then trimmed (reduce impact of any extreme weight values) and calibrated (ensuring weighted estimates align with population totals, accounting for over/undersampling)\n\nNHANES Sampling Design Module"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#nhanes-health-measures",
+    "href": "bmin5030_epid_lecture_2025.html#nhanes-health-measures",
+    "title": "Epidemiology",
+    "section": "NHANES health measures",
+    "text": "NHANES health measures\n\nObtained by team (physician, dentist, medical and health technicians, dietary and health interviewers)"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#what-have-we-learned-from-nhanes",
+    "href": "bmin5030_epid_lecture_2025.html#what-have-we-learned-from-nhanes",
+    "title": "Epidemiology",
+    "section": "What have we learned from NHANES?",
+    "text": "What have we learned from NHANES?\n\n\n\nGrowth charts\nOverweight/obesity prevalence data\nPolicies to reduce lead\nCurrent focus includes:\n\nObesity/physical activity in children\nHypertension/cholesterol reduction and potential decrease of heart disease"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#capabilities-of-current-epidemiological-studies",
+    "href": "bmin5030_epid_lecture_2025.html#capabilities-of-current-epidemiological-studies",
+    "title": "Epidemiology",
+    "section": "Capabilities of current epidemiological studies",
+    "text": "Capabilities of current epidemiological studies"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#ehr-linked-biobanks",
+    "href": "bmin5030_epid_lecture_2025.html#ehr-linked-biobanks",
+    "title": "Epidemiology",
+    "section": "EHR-linked biobanks",
+    "text": "EHR-linked biobanks"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#ehr-linked-biobanks-1",
+    "href": "bmin5030_epid_lecture_2025.html#ehr-linked-biobanks-1",
+    "title": "Epidemiology",
+    "section": "EHR-linked biobanks",
+    "text": "EHR-linked biobanks"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#all-of-us-research-program",
+    "href": "bmin5030_epid_lecture_2025.html#all-of-us-research-program",
+    "title": "Epidemiology",
+    "section": "All of Us Research Program",
+    "text": "All of Us Research Program\n\n\nGoal is to advance precision medicine - “right treatment, right patient, right time”\nNIH-led effort to gather data from 1 million or more people living in the US\nInitial areas of focus\n\nPharmacogenomics\nIdentify treatment/prevention targets\nUse and test mobile health"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#all-of-us-research-program-1",
+    "href": "bmin5030_epid_lecture_2025.html#all-of-us-research-program-1",
+    "title": "Epidemiology",
+    "section": "All of Us Research Program",
+    "text": "All of Us Research Program\n\nEmphasis on engaged participants, responsible data sharing, privacy protection\nParticipants have input into study design, implementation, and access to individual and aggregated study results\n\n\n\n\n\n\n\n\n\n\nThe All of Us Research Program Investigators (2019) NEJM\n\n\nAs of July 2019, more than 175,000 participants had contributed biospecimens. More than 80% of these participants are from groups that have been historically underrepresented in biomedical research. EHR data on more than 112,000 participants from 34 sites have been collected."
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#research-using-all-of-us",
+    "href": "bmin5030_epid_lecture_2025.html#research-using-all-of-us",
+    "title": "Epidemiology",
+    "section": "Research Using All of Us",
+    "text": "Research Using All of Us\n\n\nPheWAS\n\n\n\nFigure 2 from Khajouei et al. (2025)\n\n\n\nGWAS\n\n\n\nFigure 1 from Wang et al. (2023)\n\n\n\nOther topics\n\nPharmacogenomics (Example: Haddad et al. (2024); Discussion: Empey et al. (2025))\nIntegrated risk prediction (Example: Salvatore et al. (2025)\nEquity and fairness (Examples: Mersha, Correa-Agudelo & Gautam (2025), Jurado Vélez et al. (2025))"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#all-of-us-current-status",
+    "href": "bmin5030_epid_lecture_2025.html#all-of-us-current-status",
+    "title": "Epidemiology",
+    "section": "All of Us Current Status",
+    "text": "All of Us Current Status"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#all-of-us-data-access",
+    "href": "bmin5030_epid_lecture_2025.html#all-of-us-data-access",
+    "title": "Epidemiology",
+    "section": "All of Us Data Access",
+    "text": "All of Us Data Access\n\n\n\n\n\n\nresearchallofus.org"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#global-biobank-meta-analysis-initiative",
+    "href": "bmin5030_epid_lecture_2025.html#global-biobank-meta-analysis-initiative",
+    "title": "Epidemiology",
+    "section": "Global Biobank Meta-Analysis Initiative",
+    "text": "Global Biobank Meta-Analysis Initiative\n\n\n\n\n\n\nGBMI website | GBMI paper"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#other-ehr-linked-biobanks",
+    "href": "bmin5030_epid_lecture_2025.html#other-ehr-linked-biobanks",
+    "title": "Epidemiology",
+    "section": "Other EHR-linked Biobanks",
+    "text": "Other EHR-linked Biobanks\n\nPenn Medicine Biobank\nMillion Veteran Program\nBioVU (Vanderbilt)\nUniversity of Michigan (Michigan Genomics Initiative)\nUniversity of Colorado\nBioME (Mount Sinai)\nUK Biobank\nChina Kadoorie Biobank\nBiobank Japan\nLifelines (Netherlands)\n\n\nReading: Beesley et al. (2021)"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#biases-in-ehr-data",
+    "href": "bmin5030_epid_lecture_2025.html#biases-in-ehr-data",
+    "title": "Epidemiology",
+    "section": "Biases in EHR data",
+    "text": "Biases in EHR data\n\n\nThere are sources of statistical bias – systematic and random error.\nSystematic bias: consistent error associated with a flawed study design Random error: this is variability that arises from random fluctuations\nRandom error can lead to wrong conclusions, though this can be mitigated by increasing sample size. Systematic errors, like selection bias and missing data, do not go away as sample size increases. In fact, these biases can be amplified and our false confidence in our results may increase with N - Increasing dataset size does not always lead to better statistical inference - Poor quality or unrepresentative data can amplify biases - “our false confidence may increase with \\(n\\)”"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#biases-in-ehr-data-1",
+    "href": "bmin5030_epid_lecture_2025.html#biases-in-ehr-data-1",
+    "title": "Epidemiology",
+    "section": "Biases in EHR data",
+    "text": "Biases in EHR data\n\n\n\n\n\nSystematic sources of bias do not go away as sample size increases!\nIn fact, large \\(N\\) can amplify these biases!"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#summary",
+    "href": "bmin5030_epid_lecture_2025.html#summary",
+    "title": "Epidemiology",
+    "section": "Summary",
+    "text": "Summary\n\n\nData resources\n\n\n\n\n\n\n\nResource\nComments\nExamples\n\n\n\n\nCensus\nFoundation for population denominators; sociodemographic context for health disparities research; data can become data between cycles; linkage potential with health data for small-area estimation\nHealth disparities mapping, social determinants research, healthcare access studies\n\n\nACS\nContinuous data collection; rich socioeconomic data; different sample sizes and implications for geographic granularity\nsee Census\n\n\nBRFSS/YRBSS\nPremier telephone health survey with state-level data; emphasizes behavioral risk factors (smoking, diet, exercise, screening); limitations: self-reported data, response rates, potential selection bias; YRBSS captures critical adolescent health behaviors missed elsewhere\nBRFSS: obesity epidemic tracking, COVID-19 response, preventive care gaps; YRBSS: e-cigarette/vaping epidemic, mental health crisis, sexual health trends\n\n\nNHANES\nUnique combination of interviews, physical exams, and laboratory tests; gold standard for nutritional and biomarker data; complex survey design requiring weighted analysis; limited sample size makes subgroup analyses challenging\nLead exposure studies, diabetes prevalence, nutritional deficiences, reference ranges\n\n\nAll of Us\nPrecision medicine initiative aiming for 1+ million people; integration of EHR, genomics, wearables, and surveys; emphasis on diversity and underrepresented populations; participation engagement model and data return\nPharmacogenomics, health disparities in underrepresented groups, long COVID research, participant-driven research"
+  },
+  {
+    "objectID": "bmin5030_epid_lecture_2025.html#why-weighting-matters",
+    "href": "bmin5030_epid_lecture_2025.html#why-weighting-matters",
+    "title": "Epidemiology",
+    "section": "Why weighting matters",
+    "text": "Why weighting matters\n\nMost clinical cohorts, EHR-linked biobanks are convenience samples from healthcare systems, making them inherently non-representative\nHospital-based studies often oversample sicker, older, or higher-utilizing populations\nGeographic clustering means local cohorts may not reflect national diversity\nSystematic sources of bias do not go away as sample size increases; large \\(N\\) can amplify these biases!\nPost-hoc weights can help adjust for these selection biases and improve generalizability\nResources like Census/ACS, BRFSS, and NHANES provide information that can be used to generate weights to make study samples more representative of a desired target population (e.g., a metro area, a state, the country)\n\n\nReading: Salvatore et al. (2025)"
   }
 ]
